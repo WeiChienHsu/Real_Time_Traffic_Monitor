@@ -1,8 +1,8 @@
-<h1><strong><a href="./week 3-4"> Real-time Car Location Monitoring System </a></strong></h1>
+<h1><strong><a href="./"> Real-time Car Location Monitoring System </a></strong></h1>
 This project is a real-time car location simulation and monitoring system using Java, Spring MVC, Spring Boot, Spring Data, Spring Cloud, Maven, JPA, Hibernate, Tomcat, RabbitMQ, MongoDB, WebSocket, HTML, JavaScript, Bootstrap.
 
 
-## Week 1  Learn Spring, Maven & Tomcat  <a href="./week 1 - Learn Basics">(Week 1)</a>
+## Week 1  Learn Spring, Maven & Tomcat  <a href="./week1">(Week 1 Learn Basics Java Spring)</a>
 * Used **Spring** to write *HelloWorld* REST API
 * Created **Maven** Project in **IntelliJ**
 * Deployed war file in **Tomcat**
@@ -16,3 +16,4 @@ This project is a real-time car location simulation and monitoring system using 
 
 ## Week 3-4  Real-time Car Location Monitoring System  <a href="./week 3-4">(See the project)</a>
 **Service Architecture**
+
