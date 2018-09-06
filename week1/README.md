@@ -200,3 +200,14 @@ public class HelloWorldRestController {
     </build>
 
 ```
+
+***
+
+## Maven Clean Install
+
+- Clean the cache and build a target folder
+- Pack Java code to a WAR File
+
+```
+Installing /Users/weichien/Programming/Real_Time_Traffic_Monitor/week1/target/Hello-Week1.war to /Users/weichien/.m2/repository/com/spring/uber/hello-week1/1.0.0.BUILD-SNAPSHOT/hello-week1-1.0.0.BUILD-SNAPSHOT.war
+```
