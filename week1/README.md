@@ -1,5 +1,7 @@
 # Spring Project
 
+![spring](./springMVC.png)
+
 ```
 com.spring.uber
   |
@@ -9,8 +11,6 @@ com.spring.uber
   |
   -- HelloWorldConfiguration
   -- HelloWorldInitializer
-
-
 ```
 
 
@@ -165,8 +165,15 @@ public class HelloWorldRestController {
 }
 ```
 
-### View
+#### Get a JSON back
+- jackson helps to deserilazie the Object of Message to a JSON string.
+- @RestController default features.
 
+```
+http://localhost:8080/Hello-Week1/hello/Kevin
+
+{"name":"Kevin","text":"Hello "}
+```
 
 ***
 
@@ -211,3 +218,24 @@ public class HelloWorldRestController {
 ```
 Installing /Users/weichien/Programming/Real_Time_Traffic_Monitor/week1/target/Hello-Week1.war to /Users/weichien/.m2/repository/com/spring/uber/hello-week1/1.0.0.BUILD-SNAPSHOT/hello-week1-1.0.0.BUILD-SNAPSHOT.war
 ```
+
+***
+
+## Tomcat
+
+### Tomcat Congif
+
+- Add Manager User to Deploy App
+
+```xml
+<role rolename = "manager-gui" />
+<role rolename = "manager-script" />
+<user username = "admin" password = "password" roles = "manager-gui, manager-script" />
+```
+### Start the TomCat
+
+```
+sh ./startup
+```
+
+***
