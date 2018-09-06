@@ -1,30 +1,60 @@
+# Spring Project
+
+```
+com.spring.uber
+  |
+  -- domain - Message
+  |
+  -- controller - HelloWorldRestController
+  |
+  -- HelloWorldConfiguration
+  -- HelloWorldInitializer
+
+
+```
+
+
+
 ## Java Config
 
 ### pom.xml
 
+- properties
+- dependencies
+
+
 ```xml
+    <properties>
+        <springframework.version>4.3.0.RELEASE</springframework.version>
+    </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.3.0.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>4.3.0.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.3.0.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
     </dependencies>
-
 ```
 
 #### com.spring.uber - HelloWorldInitializer Class
+
+- inherents AbstractAnnotationConfigDispatcherServletInitializer
+- getRootConfigClasses();
+- getServletConfigClasses();
+- getServletMappings();
+
 
 ```java
 package com.spring.uber;
@@ -65,3 +95,79 @@ public class HelloWorldConfiguration {
 
 }
 ```
+
+***
+
+## RESTful API
+
+### jackson-databind (for JSON serialize and deserizlize)
+
+```xml
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.library}</version>
+        </dependency>
+```
+
+### Model (Domain Layer - for business logic)
+
+```java
+package com.spring.uber.domain;
+
+public class Message {
+
+    private String name;
+    private String text;
+
+    public Message(String name, String text) {
+        this.name = name;
+        this.text = text;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+}
+```
+
+### Controller (RESTful API)
+
+- RequestMapping : Tell Servelet Dispatching
+
+```java
+package com.spring.uber.controller;
+
+import com.spring.uber.domain.Message;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldRestController {
+
+    @RequestMapping("/")
+    public String welcome() {
+        return "Hello Spring Uber";
+    }
+
+    @RequestMapping(value = "/hello/{yourName}", method = RequestMethod.GET)
+    public Message showMessage(@PathVariable String yourName) {
+        Message msg = new Message(yourName, "Hello ");
+        return msg;
+    }
+}
+```
+
+### View
+
+
+
+
+***
