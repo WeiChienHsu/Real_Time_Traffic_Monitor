@@ -30,6 +30,13 @@ public class Location {
     /* Override the column name in the UniInfo Class */
     private final UnitInfo unitInfo;
 
+    @Embedded
+    @AttributeOverrides({
+            @AttributeOverride(name = "fmi", column = @Column(name = "unit_fmi")),
+            @AttributeOverride(name = "spn", column = @Column(name = "unit_spn"))
+    })
+    private UnitFault unitFault;
+
     private double latitude;
     private double longitude;
     private String heading;
@@ -44,6 +51,9 @@ public class Location {
     private String tspProvider;
     private VehicleMovementType vehicleMovementType = VehicleMovementType.STOPPED;
     private String serviceType;
+
+    @Embedded
+    private FaultCode faultCode;
 
     private Location() {
         this.unitInfo = null;
