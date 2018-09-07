@@ -1,7 +1,9 @@
 package com.kevin.spring.uber.domain;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.persistence.*;
 import java.util.Date;
 
 public class Location {
@@ -23,6 +25,11 @@ public class Location {
     @GeneratedValue
     private Long id;
 
+    @Embedded
+    @AttributeOverride(name = "engineMake", column =  @Column(name = "unit_engine_make"))
+    /* Override the column name in the UniInfo Class */
+    private final UnitInfo unitInfo;
+
     private double latitude;
     private double longitude;
     private String heading;
@@ -37,5 +44,19 @@ public class Location {
     private String tspProvider;
     private VehicleMovementType vehicleMovementType = VehicleMovementType.STOPPED;
     private String serviceType;
+
+    private Location() {
+        this.unitInfo = null;
+    }
+
+    @JsonCreator
+    private Location(@JsonProperty("vin") String vin) {
+        this.unitInfo = new UnitInfo(vin);
+    }
+
+    public String getVin() {
+        return this.unitInfo == null ? null : this.unitInfo.getUnitVin();
+        /* Get Method was created by Lombok */
+    }
 
 }
