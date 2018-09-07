@@ -7,7 +7,7 @@ This project is a real-time car location simulation and monitoring system using 
 * Created **Maven** Project in **IntelliJ**
 * Deployed war file in **Tomcat**
 
-## Week 2  Learn Spring Boot, Spring Data, Spring Cloud, RabbitMQ <a href="./week 2 - Learn Modern Java Application Development">(Week 2)</a>
+## Week 2  Learn Spring Boot, Spring Data, Spring Cloud, RabbitMQ
 #### Week 2-1 Learn Spring Boot
 * Learned **Spring Boot** to write *HelloWorld* REST API
 #### Week 2-2 Fleet Location Service

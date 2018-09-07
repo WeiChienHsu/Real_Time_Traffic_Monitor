@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.*;
 
 /* Spring Data - <Location, id> */
 public interface LocationRepository extends JpaRepository<Location, Long> {
-    /* DAO about Location Domain Class */
+    /* DAO about Location Domain Class - No need to read Queries */
     /* Page class for pagination */
     Page<Location> findByVehicleMovementType(@Param("movementType") Location.VehicleMovementType vehicleMovementType, Pageable pageable);
     Page<Location> findByUnitInfoUnitVin(@Param("unitVin") String unitVin, Pageable pageable);
