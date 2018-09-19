@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fleet-location-service/fleet-location-service.iml" filepath="$PROJECT_DIR$/fleet-location-service/fleet-location-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-location-service.iml" filepath="$PROJECT_DIR$/service-location-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicelocationservice.iml" filepath="$PROJECT_DIR$/servicelocationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-uber-vehicle-fleet.iml" filepath="$PROJECT_DIR$/spring-cloud-uber-vehicle-fleet.iml" />
+    </modules>
+  </component>
+</project>
