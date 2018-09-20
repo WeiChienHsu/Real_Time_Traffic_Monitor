@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fleet-location-ingest/fleet-location-ingest.iml" filepath="$PROJECT_DIR$/fleet-location-ingest/fleet-location-ingest.iml" />
       <module fileurl="file://$PROJECT_DIR$/fleet-location-service/fleet-location-service.iml" filepath="$PROJECT_DIR$/fleet-location-service/fleet-location-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/fleet-location-simulator/fleet-location-simulator.iml" filepath="$PROJECT_DIR$/fleet-location-simulator/fleet-location-simulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-uber-vehicle-fleet.iml" filepath="$PROJECT_DIR$/spring-cloud-uber-vehicle-fleet.iml" />

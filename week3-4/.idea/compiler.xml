@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fleet-location-ingest" />
         <module name="fleet-location-service" />
         <module name="fleet-location-simulator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fleet-location-ingest" target="1.8" />
       <module name="fleet-location-service" target="1.8" />
       <module name="fleet-location-simulator" target="1.8" />
       <module name="spring-cloud-uber-vehicle-fleet" target="1.8" />

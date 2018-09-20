@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854c1f5f-296c-4edf-825c-2be3e8149156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-simulator/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/fleet-location-service/target/" />
     <ignored path="$PROJECT_DIR$/fleet-location-simulator/target/" />
+    <ignored path="$PROJECT_DIR$/fleet-location-ingest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,153 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultPositionService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationSimulatorRestApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2207#2208#0" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2926#2927#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-                <element signature="e#3078#3079#0" expanded="true" />
-                <element signature="e#3133#3134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentPosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/CurrentPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GpsSimulatorRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding>
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1600#1601#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1772#1773#0" expanded="true" />
-                <element signature="e#1824#1825#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-                <element signature="e#1907#1908#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2584#2585#0" expanded="true" />
-                <element signature="e#2623#2624#0" expanded="true" />
-                <element signature="e#2655#2656#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GpsSimulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2882">
+            <state relative-caret-position="2706">
               <caret line="131" column="38" lean-forward="false" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4072#4073#0" expanded="true" />
-                <element signature="e#4107#4108#0" expanded="true" />
-                <element signature="e#6279#6280#0" expanded="true" />
-                <element signature="e#6312#6313#0" expanded="true" />
-                <element signature="e#6412#6413#0" expanded="true" />
-                <element signature="e#6451#6452#0" expanded="true" />
-                <element signature="e#6498#6499#0" expanded="true" />
-                <element signature="e#6543#6544#0" expanded="true" />
-                <element signature="e#6580#6581#0" expanded="true" />
-                <element signature="e#6624#6625#0" expanded="true" />
-                <element signature="e#6708#6709#0" expanded="true" />
-                <element signature="e#6741#6742#0" expanded="true" />
-                <element signature="e#6857#6858#0" expanded="true" />
-                <element signature="e#6901#6902#0" expanded="true" />
-                <element signature="e#6942#6943#0" expanded="true" />
-                <element signature="e#6979#6980#0" expanded="true" />
-                <element signature="e#7159#7160#0" expanded="true" />
-                <element signature="e#7191#7192#0" expanded="true" />
-                <element signature="e#7239#7240#0" expanded="true" />
-                <element signature="e#7274#7275#0" expanded="true" />
-                <element signature="e#7342#7343#0" expanded="true" />
-                <element signature="e#7393#7394#0" expanded="true" />
-                <element signature="e#7420#7421#0" expanded="true" />
-                <element signature="e#7445#7446#0" expanded="true" />
-                <element signature="e#7479#7480#0" expanded="true" />
-                <element signature="e#7507#7508#0" expanded="true" />
-                <element signature="e#7558#7559#0" expanded="true" />
-                <element signature="e#7602#7603#0" expanded="true" />
-                <element signature="e#7638#7639#0" expanded="true" />
-                <element signature="e#7671#7672#0" expanded="true" />
-                <element signature="e#7718#7719#0" expanded="true" />
-                <element signature="e#7754#7755#0" expanded="true" />
-                <element signature="e#7819#7820#0" expanded="true" />
-                <element signature="e#7869#7870#0" expanded="true" />
-                <element signature="e#7911#7912#0" expanded="true" />
-                <element signature="e#7948#7949#0" expanded="true" />
-                <element signature="e#8009#8010#0" expanded="true" />
-                <element signature="e#8061#8062#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,60 +40,19 @@
       <file leaf-file-name="GpsSimulatorInstance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
-              <folding>
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GpsSimulatorFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultGpsSimulatorFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimulatorFixture.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/SimulatorFixture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -295,7 +119,6 @@
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultKmlService.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/PositionService.java" />
-        <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/support/FaultCodeUtills.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/FaultCode.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/support/NavUtils.java" />
@@ -308,6 +131,14 @@
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/CurrentPosition.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/pom.xml" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/.gitignore" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/java/FleetLocationIngestApplication.java" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/java/VehiclePositionSource.java" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/FleetLocationIngestApplication.java" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionSource.java" />
+        <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -351,96 +182,37 @@
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
@@ -587,7 +359,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08940853" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22145805" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -946,182 +718,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/SimulatorFixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2926#2927#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3078#3079#0" expanded="true" />
-            <element signature="e#3133#3134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/CurrentPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1907#1908#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2623#2624#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="131" column="38" lean-forward="false" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4072#4073#0" expanded="true" />
-            <element signature="e#4107#4108#0" expanded="true" />
-            <element signature="e#6279#6280#0" expanded="true" />
-            <element signature="e#6312#6313#0" expanded="true" />
-            <element signature="e#6412#6413#0" expanded="true" />
-            <element signature="e#6451#6452#0" expanded="true" />
-            <element signature="e#6498#6499#0" expanded="true" />
-            <element signature="e#6543#6544#0" expanded="true" />
-            <element signature="e#6580#6581#0" expanded="true" />
-            <element signature="e#6624#6625#0" expanded="true" />
-            <element signature="e#6708#6709#0" expanded="true" />
-            <element signature="e#6741#6742#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#6901#6902#0" expanded="true" />
-            <element signature="e#6942#6943#0" expanded="true" />
-            <element signature="e#6979#6980#0" expanded="true" />
-            <element signature="e#7159#7160#0" expanded="true" />
-            <element signature="e#7191#7192#0" expanded="true" />
-            <element signature="e#7239#7240#0" expanded="true" />
-            <element signature="e#7274#7275#0" expanded="true" />
-            <element signature="e#7342#7343#0" expanded="true" />
-            <element signature="e#7393#7394#0" expanded="true" />
-            <element signature="e#7420#7421#0" expanded="true" />
-            <element signature="e#7445#7446#0" expanded="true" />
-            <element signature="e#7479#7480#0" expanded="true" />
-            <element signature="e#7507#7508#0" expanded="true" />
-            <element signature="e#7558#7559#0" expanded="true" />
-            <element signature="e#7602#7603#0" expanded="true" />
-            <element signature="e#7638#7639#0" expanded="true" />
-            <element signature="e#7671#7672#0" expanded="true" />
-            <element signature="e#7718#7719#0" expanded="true" />
-            <element signature="e#7754#7755#0" expanded="true" />
-            <element signature="e#7819#7820#0" expanded="true" />
-            <element signature="e#7869#7870#0" expanded="true" />
-            <element signature="e#7911#7912#0" expanded="true" />
-            <element signature="e#7948#7949#0" expanded="true" />
-            <element signature="e#8009#8010#0" expanded="true" />
-            <element signature="e#8061#8062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1131,17 +739,172 @@
         <state relative-caret-position="164">
           <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="340">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2207#2208#0" expanded="false" />
+            <element signature="e#2250#2251#0" expanded="false" />
+            <element signature="e#2926#2927#0" expanded="false" />
+            <element signature="e#2981#2982#0" expanded="false" />
+            <element signature="e#3078#3079#0" expanded="false" />
+            <element signature="e#3133#3134#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/CurrentPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#1084#1085#0" expanded="false" />
+            <element signature="e#1133#1134#0" expanded="false" />
+            <element signature="e#1336#1337#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#1486#1487#0" expanded="false" />
+            <element signature="e#1521#1522#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1600#1601#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1715#1716#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1824#1825#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1972#1973#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
+            <element signature="e#2052#2053#0" expanded="false" />
+            <element signature="e#2078#2079#0" expanded="false" />
+            <element signature="e#2116#2117#0" expanded="false" />
+            <element signature="e#2146#2147#0" expanded="false" />
+            <element signature="e#2542#2543#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="false" />
+            <element signature="e#2623#2624#0" expanded="false" />
+            <element signature="e#2655#2656#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/SimulatorFixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#648#649#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="131" column="38" lean-forward="false" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/FleetLocationIngestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

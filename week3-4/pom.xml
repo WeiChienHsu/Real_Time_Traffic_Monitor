@@ -24,6 +24,7 @@
         <!--<module>platform</module>-->
         <module>fleet-location-service</module>
         <module>fleet-location-simulator</module>
+        <module>fleet-location-ingest</module>
     </modules>
 
     <properties>
