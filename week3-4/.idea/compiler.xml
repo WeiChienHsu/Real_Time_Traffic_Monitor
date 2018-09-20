@@ -9,12 +9,14 @@
         <module name="fleet-location-ingest" />
         <module name="fleet-location-service" />
         <module name="fleet-location-simulator" />
+        <module name="fleet-location-updater" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fleet-location-ingest" target="1.8" />
       <module name="fleet-location-service" target="1.8" />
       <module name="fleet-location-simulator" target="1.8" />
+      <module name="fleet-location-updater" target="1.8" />
       <module name="spring-cloud-uber-vehicle-fleet" target="1.8" />
     </bytecodeTargetLevel>
   </component>

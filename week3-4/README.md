@@ -209,6 +209,8 @@ public class GpsSimulatorInstance {
 
 ![rabbitMQ](./rabbitMQ.png)
 
+把一個REST call 轉變到 RabbitMQ內，成為RabbitMQ的Source。
+
 - Active as a sender to connect with Simulator and put the position Info into the RabbitMQ.
 - Binding the sources and inject MessageChannel created by springframework.cloud.
 - Send the String of position information built by MessageBuilder.
@@ -245,3 +247,6 @@ spring:
         output: vehicles
 ```
 
+## Fleet-Location-Updater
+
+- Using WebSocket to update the latest location information in the frontend.
