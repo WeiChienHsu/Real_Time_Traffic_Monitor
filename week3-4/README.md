@@ -2,7 +2,7 @@
 ## Fleet-Location-Service
 
 
-## Fleet-Location-Simulator
+## Fleet-Location-Simulator (PORT 9005)
 
 ### Model
 
@@ -205,8 +205,11 @@ public class GpsSimulatorInstance {
 ```
 
 
-## Fleet-Location-Ingest
+## Fleet-Location-Ingest (PORT 9006)
 
+![rabbitMQ](./rabbitMQ.png)
+
+- Active as a sender to connect with Simulator and put the position Info into the RabbitMQ.
 - Binding the sources and inject MessageChannel created by springframework.cloud.
 - Send the String of position information built by MessageBuilder.
 
@@ -241,3 +244,4 @@ spring:
       bindings:
         output: vehicles
 ```
+
