@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 
+/* Spring Data REST - directly expose REST end point */
 public interface LocationRepository extends PagingAndSortingRepository<Location, Long> {
 
     @RestResource(rel = "by-service-type")
