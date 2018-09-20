@@ -1,15 +1,28 @@
 package demo.service.impl;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.maps.*;
-import com.google.maps.model.*;
+import com.google.maps.DirectionsApi;
+import com.google.maps.DirectionsApiRequest;
+import com.google.maps.GeoApiContext;
+import com.google.maps.GeocodingApi;
+import com.google.maps.GeocodingApiRequest;
+import com.google.maps.model.AddressComponent;
+import com.google.maps.model.AddressComponentType;
+import com.google.maps.model.DirectionsRoute;
+import com.google.maps.model.GeocodingResult;
+import com.google.maps.model.LatLng;
 import demo.model.DirectionInput;
+import demo.model.Point;
 import demo.model.ServiceLocation;
 import demo.model.SimulatorFixture;
+import demo.service.PathService;
 import net.sf.sprockets.Sprockets;
 import net.sf.sprockets.google.Place;
 import net.sf.sprockets.google.Places;
+import net.sf.sprockets.google.Places.Params;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
@@ -17,7 +30,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  *
  *

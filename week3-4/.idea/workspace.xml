@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854c1f5f-296c-4edf-825c-2be3e8149156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-ingest/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/KmlService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultKmlService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" afterPath="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,6 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultPathService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GpsSimulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,12 +67,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <file leaf-file-name="VehiclePositionsSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionsSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.2.1.RELEASE/spring-messaging-4.2.1.RELEASE-sources.jar!/org/springframework/messaging/MessageChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FleetLocationIngestApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/FleetLocationIngestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +153,6 @@
         <option value="$PROJECT_DIR$/fleet-location-service/src/main/java/demo/Location.java" />
         <option value="$PROJECT_DIR$/fleet-location-service/src/main/java/demo/FleetBulkUploadController.java" />
         <option value="$PROJECT_DIR$/fleet-location-service/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fleet-location-service/fleet.json" />
         <option value="$PROJECT_DIR$/fleet-location-service/upload-fleet.sh" />
         <option value="$PROJECT_DIR$/fleet-location-service/src/main/java/demo/LocationRepository.java" />
@@ -117,7 +170,6 @@
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/SimulatorFixture.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/KmlService.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultKmlService.java" />
-        <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/PositionService.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/support/FaultCodeUtills.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/model/FaultCode.java" />
@@ -139,6 +191,9 @@
         <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionSource.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/task/GpsSimulatorInstance.java" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/fleet-location-ingest/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
       </list>
     </option>
   </component>
@@ -182,25 +237,25 @@
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -208,7 +263,7 @@
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-ingest" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -217,7 +272,23 @@
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="week3-4" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
+              <item name="fleet-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,7 +430,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22145805" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43741402" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -636,28 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultKmlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#8001#8002#0" expanded="false" />
-            <element signature="e#8049#8050#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/KmlService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -705,24 +754,6 @@
             <element signature="e#624#625#0" expanded="false" />
             <element signature="e#666#667#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/PathService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,30 +896,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/FleetLocationIngestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionsSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fleet-location-ingest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -901,10 +920,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/FleetLocationIngestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/java/demo/VehiclePositionsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.2.1.RELEASE/spring-messaging-4.2.1.RELEASE-sources.jar!/org/springframework/messaging/MessageChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-ingest/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/PathService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultKmlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -961,7 +1040,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fleet-location-simulator</last-edited>
+          <last-edited>spring-cloud-uber-vehicle-fleet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

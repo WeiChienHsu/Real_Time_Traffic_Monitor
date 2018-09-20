@@ -206,3 +206,38 @@ public class GpsSimulatorInstance {
 
 
 ## Fleet-Location-Ingest
+
+- Binding the sources and inject MessageChannel created by springframework.cloud.
+- Send the String of position information built by MessageBuilder.
+
+```java
+import org.springframework.cloud.stream.messaging.Source;
+
+@EnableBinding(Source.class)
+@RestController
+public class VehiclePositionsSource {
+
+    @Autowired
+    private MessageChannel output;
+
+    @RequestMapping(path = "/api/locations", method = RequestMethod.POST)
+    public void locations(@RequestBody String positionInfo) {
+        this.output.send(MessageBuilder.withPayload(positionInfo).build());
+    }
+
+}
+```
+
+- Configue the port and channel.
+
+```yml
+server:
+  port: 9006
+spring:
+  application:
+    name: fleet-location-ingest
+  cloud:
+    stream:
+      bindings:
+        output: vehicles
+```
