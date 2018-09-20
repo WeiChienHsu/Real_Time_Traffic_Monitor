@@ -12,6 +12,7 @@ public interface LocationRepository extends PagingAndSortingRepository<Location,
     @RestResource(rel = "by-service-type")
     Page<Location> findByServiceType(@Param("type") String type, Pageable pageable);
 
+    /* localhost:8080/locations/search/vin?vin=ba07dd85-4380-4c4b-9461-6b88564fee2c */
     @RestResource(path = "vin", rel = "by-vin")
     Page<Location> findByUnitInfoUnitVin(@Param("vin") String vin, Pageable pageable);
 
