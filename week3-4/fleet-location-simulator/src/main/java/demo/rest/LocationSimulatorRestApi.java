@@ -22,9 +22,6 @@ public class LocationSimulatorRestApi {
     @Autowired
     private PathService pathService;
 
-//    @Autowired
-//    private KmlService kmlService;
-
     @Autowired
     private GpsSimulatorFactory gpsSimulatorFactory;
 
