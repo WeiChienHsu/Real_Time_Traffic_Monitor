@@ -250,3 +250,27 @@ spring:
 ## Fleet-Location-Updater
 
 - Using WebSocket to update the latest location information in the frontend.
+- FleetLocationUpdaterSink receive the message from MessageMQ
+- Used objectMapper mapping the String into Object CurrentPosition.
+
+```java
+@MessageEndpoint
+@EnableBinding(Sink.class)
+public class FleetLocationUpdaterSink {
+
+    @Autowired
+    private SimpMessagingTemplate template;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @ServiceActivator(inputChannel = Sink.INPUT)
+    public void updateLocationaddServiceLocations(String input) throws Exception {
+
+        CurrentPosition payload = this.objectMapper.readValue(input, CurrentPosition.class);
+        /* Same path to the js request to the data */
+        this.template.convertAndSend("/topic/vehicles", payload);
+    }
+}
+```
+

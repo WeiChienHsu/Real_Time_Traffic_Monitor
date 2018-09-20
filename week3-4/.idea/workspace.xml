@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854c1f5f-296c-4edf-825c-2be3e8149156" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_hateoas_1_3_0_M5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_1_3_0_M5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_2_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/fleet-location-updater.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/CurrentPosition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/FaultCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/Point.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/ServiceLocation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/VehicleStatus.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java" />
+      <change beforePath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java" afterPath="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,46 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FleetLocationUpdaterSink.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSocketConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentPosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/CurrentPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaultCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FaultCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/FaultCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-261">
               <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,8 +81,8 @@
       <file leaf-file-name="ServiceLocationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="230">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,9 +91,47 @@
       <file leaf-file-name="DefaultServiceLocationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="506">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FleetLocationUpdaterApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FleetLocationUpdaterSink.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,9 +139,11 @@
       <file leaf-file-name="WebSocketApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="440">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fleet-location-service/upload-fleet.sh" />
-        <option value="$PROJECT_DIR$/fleet-location-service/src/main/java/demo/LocationRepository.java" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/.gitignore" />
         <option value="$PROJECT_DIR$/fleet-location-simulator/pom.xml" />
         <option value="$PROJECT_DIR$/fleet-location-service/src/main/resources/application.yml" />
@@ -243,12 +227,14 @@
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterApplication.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/CurrentPosition.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/Point.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/ServiceLocation.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/VehicleStatus.java" />
         <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/FaultCode.java" />
+        <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java" />
+        <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java" />
+        <option value="$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java" />
       </list>
     </option>
   </component>
@@ -323,37 +309,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week3-4" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet-location-updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-uber-vehicle-fleet" type="b2602c69:ProjectViewProjectNode" />
@@ -945,60 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/CurrentPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1045,8 +946,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/model/FaultCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-261">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/ServiceLocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/service/impl/DefaultServiceLocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/web/WebSocketApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fleet-location-updater/src/main/java/demo/FleetLocationUpdaterSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
