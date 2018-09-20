@@ -1,7 +1,6 @@
 package demo.model;
 
 
-import demo.FaultCode;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
