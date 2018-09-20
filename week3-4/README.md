@@ -1,5 +1,17 @@
+## WorkFlow
+
+Fleet-Location-Simulator 透過調用 restTemplate.postForLocation 得到 fleetLocationIngest + "api/location" 的 URL，而 currentPosition 就是由 GpsSimulator 自動產生的 Location Info。
+
+當這個POST Request生成之後，Fleet-Location-Ingest 內的 RestController 會將接收到的內容 Map 到 /api/locations ，將自己定義為 RabbitMQ 的一個 Soucre，透過 MessageChannel 把 Position Info 發送出去放入 Queue 當中。
+
+接著 Queue 會將 Info 丟入Fleet-Location-Updater，也就是我們標記為 SinkClass 的 FleetLocationUpdaterSink，透過 inputChannel 傳入，並透過objectMapping 轉換成一個 Object CurrentPostiion， 最後透過 convertAndSend deserize 然後發送到 /topic/vechiles，前端就會接收到這些Position Information，前端會根據 Updated Position 來呈現。
+
 
 ## Fleet-Location-Service
+
+### FleetBulkUploadController
+
+Upload the mock lication information into our local database
 
 
 ## Fleet-Location-Simulator (PORT 9005)

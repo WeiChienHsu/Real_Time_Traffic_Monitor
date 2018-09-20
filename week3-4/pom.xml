@@ -19,10 +19,7 @@
         <module>fleet-location-simulator</module>
         <module>fleet-location-ingest</module>
         <module>fleet-location-updater</module>
-        <!--<module>fleet-location-updater</module>-->
-        <!--<module>service-location-service</module>-->
-        <!--<module>dashboard</module>-->
-        <!--<module>platform</module>-->
+        <module>service-location-service</module>
     </modules>
 
     <properties>
