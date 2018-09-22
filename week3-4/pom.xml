@@ -21,6 +21,7 @@
         <module>fleet-location-updater</module>
         <module>service-location-service</module>
         <module>dashboard</module>
+        <module>platform</module>
     </modules>
 
     <properties>

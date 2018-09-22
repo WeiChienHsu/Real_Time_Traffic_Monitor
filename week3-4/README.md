@@ -328,4 +328,50 @@ zuul:
 - When there is a new micro service was added, (Without a service manager which means the same data center), in a cross domain situation. Requests enter and call for the service, eureka where do the sync up with other services and update this new request to call.
 
 
+```java
+package eurekademo;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaApplication {
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(EurekaApplication.class, args);
+    }
+
+}
+```
+
+```yml
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+---
+spring:
+  profiles: cloud
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+---
+
+spring:
+  application:
+    name: eureka
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URI:${vcap.services.${PREFIX:}configserver.credentials.uri:http://localhost:8888}}
+```
