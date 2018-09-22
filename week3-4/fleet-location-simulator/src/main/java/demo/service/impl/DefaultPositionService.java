@@ -18,11 +18,7 @@ public class DefaultPositionService implements PositionService {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultPositionService.class);
 
     @Autowired
-//    @LoadBalanced
     private RestTemplate restTemplate;
-
-//    @Value("${com.ross.fleet.location.ingest}")
-//    private String fleetLocationIngest;
 
     public DefaultPositionService() {
         super();

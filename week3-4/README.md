@@ -386,3 +386,46 @@ spring:
 
 ### hystrix
 
+Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+
+***
+
+## Slf4j 
+
+Simple Logging Facade for Java provides a Java logging API by means of a simple facade pattern
+
+
+```java
+@Service
+@Slf4j
+public class DefaultPositionService implements PositionService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(DefaultPositionService.class);
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    public DefaultPositionService() {
+        super();
+    }
+
+    @HystrixCommand(fallbackMethod = "processPositionInfoFallback")
+    @Override
+    public void processPositionInfo(long id, CurrentPosition currentPosition, boolean exportPositionsToKml,
+                                    boolean sendPositionsToIngestionService) {
+
+        String fleetLocationIngest = "http://fleet-location-ingest";
+        if (sendPositionsToIngestionService) {
+            log.info("Simulator is callling ingest REST API");
+            this.restTemplate.postForLocation(fleetLocationIngest + "/api/locations", currentPosition);
+        }
+
+    }
+
+    public void processPositionInfoFallback(long id, CurrentPosition currentPosition, boolean exportPositionsToKml,
+                                            boolean sendPositionsToIngestionService) {
+        LOGGER.error("Hystrix Fallback Method. Unable to send message for ingestion.");
+    }
+
+}
+```
