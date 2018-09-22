@@ -286,3 +286,46 @@ public class FleetLocationUpdaterSink {
 }
 ```
 
+***
+
+## Dashboard
+
+### Zuul
+
+- Handle the cross domain : All Requests from frontend to /fleet-location-service/** will be transfered to http://localhost:9000.
+
+```java
+@SpringBootApplication
+@EnableZuulProxy
+public class DashboardApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DashboardApplication.class, args);
+    }
+
+}
+```
+
+```xml
+spring:
+  application:
+    name: dashboard
+stomp:
+  url: localhost:9007/stomp
+
+zuul:
+  routes:
+    fleet-location-service:
+      path: /fleet-location-service/**
+      url: http://localhost:9000
+    service-location-service:
+      path: /service-location-service/**
+      url: http://localhost:9001
+```
+
+### Eureka - Services Registration / Discovery
+
+- When there is a new micro service was added, (Without a service manager which means the same data center), in a cross domain situation. Requests enter and call for the service, eureka where do the sync up with other services and update this new request to call.
+
+
+

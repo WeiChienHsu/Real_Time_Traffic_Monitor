@@ -1,3 +1,9 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+
 # Intellij
 .idea/
 *.iml

@@ -20,6 +20,7 @@
         <module>fleet-location-ingest</module>
         <module>fleet-location-updater</module>
         <module>service-location-service</module>
+        <module>dashboard</module>
     </modules>
 
     <properties>
