@@ -323,6 +323,13 @@ zuul:
       url: http://localhost:9001
 ```
 
+### Dashboard
+
+基礎服務，無關乎業務處理。
+
+- Eureka
+- hystrix
+
 ### Eureka - Services Registration / Discovery
 
 - When there is a new micro service was added, (Without a service manager which means the same data center), in a cross domain situation. Requests enter and call for the service, eureka where do the sync up with other services and update this new request to call.
@@ -375,3 +382,7 @@ spring:
     config:
       uri: ${CONFIG_SERVER_URI:${vcap.services.${PREFIX:}configserver.credentials.uri:http://localhost:8888}}
 ```
+
+
+### hystrix
+
